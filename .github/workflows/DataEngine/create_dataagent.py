@@ -7,12 +7,12 @@ import sys
 # Replace the placeholder values with your actual information
 PROJECT_NUMBER = "362440398011"
 LOCATION = "global"
-ENGINE_ID = "agentspace-walmartus_1754500138149"
-DISPLAY_NAME = "Data Agent-Darv01"
-AGENT_DESCRIPTION = "Pilot Data Agent for Darv Dev"
-BQ_PROJECT_ID = "wmt-darv-dev"
-BQ_DATASET_ID = "tech_radar"
-AUTHORIZATION_RESOURCE_NAME = "projects/362440398011/locations/global/authorizations/DataAgent01_Darv-01"
+ENGINE_ID = "agentspace-test-bot1_1744872480618"
+DISPLAY_NAME = "Health & Wellness"
+AGENT_DESCRIPTION = "Pilot Data Agent for Health & Wellness"
+BQ_PROJECT_ID = "wmt-e2e-datafoundations-dev"
+BQ_DATASET_ID = "ADHOC_HW"
+AUTHORIZATION_RESOURCE_NAME = "projects/362440398011/locations/global/authorizations/HWTest-Agent"
 # Get the access token using the gcloud command
 try:
     access_token = subprocess.check_output(

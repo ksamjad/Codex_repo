@@ -8,8 +8,8 @@ import subprocess
 PROJECT_NUMBER = '362440398011'
 LOCATION = 'global'
 ENGINE_ID = 'agentspace-test-bot1_1744872480618'
-AGENT_ID = '18272621115287692047'
-AGENT_RESOURCE_NAME = 'projects/362440398011/locations/global/collections/default_collection/engines/agentspace-test-bot1_1744872480618/assistants/default_assistant/agents/18272621115287692047'
+AGENT_ID = '6806780255366687791'
+AGENT_RESOURCE_NAME = 'projects/362440398011/locations/global/collections/default_collection/engines/agentspace-test-bot1_1744872480618/assistants/default_assistant/agents/6806780255366687791'
 
 #PROJECT_NUMBER = "994041294907"
 #LOCATION = "global"
