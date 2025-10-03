@@ -70,6 +70,6 @@ if __name__ == "__main__":
     LOCATION = "global"
     ENGINE_ID = "agentspace-test-bot1_1744872480618"
     DISPLAY_NAME = "Health & Wellness"
-    AGENT_ID = "10521090652494292424"
+    AGENT_ID = "3022101184810864849"
     AGENT_RESOURCE_NAME = "projects/362440398011/locations/global/collections/default_collection/engines/agentspace-test-bot1_1744872480618/assistants/default_assistant/agents/10521090652494292424"
     deploy_agent(PROJECT_NUMBER, LOCATION, ENGINE_ID, AGENT_ID, AGENT_RESOURCE_NAME)
