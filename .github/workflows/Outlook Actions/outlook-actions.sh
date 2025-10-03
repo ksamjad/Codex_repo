@@ -9,7 +9,7 @@ curl -X POST \
 "$SERVER/v1alpha/projects/362440398011/locations/global:setUpDataConnector" \
 -d '{
   "collectionId": "362440398011",
-  "collectionDisplayName": "Outlook-Actions",
+  "collectionDisplayName": "Outlook-Actions-POC",
   "dataConnector": {
     "dataSource": "outlook",
     "params": {
