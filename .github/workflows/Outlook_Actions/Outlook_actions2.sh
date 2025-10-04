@@ -1,7 +1,7 @@
 SERVER=https://discoveryengine.googleapis.com
-PROJECT_NUMBER={362440398011}
-ENGINE_ID="{agentspace-test-bot1_1744872480618}"
-CONNECTOR_ID="{12485635828764516806}"
+PROJECT_NUMBER="362440398011"
+ENGINE_ID="agentspace-test-bot1_1744872480618"
+CONNECTOR_ID="362440398011"
 
 curl -X PATCH \
   -H "Authorization: Bearer $(gcloud auth print-access-token --project "${PROJECT_NUMBER}")" \
