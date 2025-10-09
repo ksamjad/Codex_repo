@@ -8,11 +8,11 @@ import sys
 PROJECT_NUMBER = "362440398011"
 LOCATION = "global"
 ENGINE_ID = "agentspace-test-bot1_1744872480618"
-DISPLAY_NAME = "Health & Wellness"
-AGENT_DESCRIPTION = "Pilot Data Agent for Health & Wellness"
-BQ_PROJECT_ID = "wmt-e2e-datafoundations-dev"
-BQ_DATASET_ID = "ADHOC_HW"
-AUTHORIZATION_RESOURCE_NAME = "projects/362440398011/locations/global/authorizations/ADHOC_HW007"
+DISPLAY_NAME = "Darv Dev"
+AGENT_DESCRIPTION = "Pilot Data Agent for Darv Dev"
+BQ_PROJECT_ID = "wmt-darv-Dev"
+BQ_DATASET_ID = "tech_radar"
+AUTHORIZATION_RESOURCE_NAME = "projects/362440398011/locations/global/authorizations/Darv-Dev1009"
 # Get the access token using the gcloud command
 try:
     access_token = subprocess.check_output(

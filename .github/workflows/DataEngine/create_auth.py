@@ -7,10 +7,10 @@ import os
 # Replace these with your actual values
 PROJECT_NUMBER = "362440398011"
 LOCATION = "global"
-AUTH_ID = "HWTest-Agent01"
-CLIENT_ID = "362440398011-fp7rj9l6aapm5f2otcfsr7nnehmp9b2v.apps.googleusercontent.com"
-CLIENT_SECRET = "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"
-AUTHORIZATION_URI = "https://accounts.google.com/o/oauth2/v2/auth?client_id=362440398011-fp7rj9l6aapm5f2otcfsr7nnehmp9b2v.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fstatic%2Foauth%2Foauth.html&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbigquery&include_granted_scopes=true&response_type=code&access_type=offline&prompt=consent"
+AUTH_ID = "Darv-Dev1009"
+CLIENT_ID = "185978178877-c6kjdunmltg6aca8vo5r14dg98t1o4ga.apps.googleusercontent.com"
+CLIENT_SECRET = "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"
+AUTHORIZATION_URI = "https://accounts.google.com/o/oauth2/v2/auth?client_id=185978178877-c6kjdunmltg6aca8vo5r14dg98t1o4ga.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fvertexaisearch.cloud.google.com%2Fstatic%2Foauth%2Foauth.html&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbigquery&include_granted_scopes=true&response_type=code&access_type=offline&prompt=consent"
 TOKEN_URI = "https://oauth2.googleapis.com/token"
 
 def get_access_token():
