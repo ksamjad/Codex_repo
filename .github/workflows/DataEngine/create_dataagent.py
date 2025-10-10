@@ -8,11 +8,20 @@ import sys
 PROJECT_NUMBER = "362440398011"
 LOCATION = "global"
 ENGINE_ID = "agentspace-test-bot1_1744872480618"
-DISPLAY_NAME = "Darv Dev"
-AGENT_DESCRIPTION = "Pilot Data Agent for Darv Dev"
+DISPLAY_NAME = "GT-Workforce"
+AGENT_DESCRIPTION = "This agent will answer your questions on Global tech Workforce"
 BQ_PROJECT_ID = "wmt-darv-Dev"
-BQ_DATASET_ID = "tech_radar"
-AUTHORIZATION_RESOURCE_NAME = "projects/362440398011/locations/global/authorizations/Darv-Dev1009"
+BQ_DATASET_ID = "prod_global_tech_workforce"
+AUTHORIZATION_RESOURCE_NAME = "projects/362440398011/locations/global/authorizations/GT-Workforce"
+
+# --- NEW: Define your custom instructions for the agent ---
+CUSTOM_INSTRUCTIONS = (
+    "You are an expert HR analyst for the company Global Tech. "
+    "Your sole purpose is to answer questions about the company's workforce using only the provided BigQuery tables. "
+    "L2_UserID is the user ID of CTO, L3_UserID are the user IDs of EVPs reporting to CTO, similarly their reportees will be L4 and so on That is the hint about heirarchy"
+    "When providing employee counts, always use exact numbers. "
+    "All financial data, like salaries or budgets, should be explicitly stated as being in USD."
+)
 # Get the access token using the gcloud command
 try:
     access_token = subprocess.check_output(
