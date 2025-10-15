@@ -8,11 +8,11 @@ import sys
 PROJECT_NUMBER = "362440398011"
 LOCATION = "global"
 ENGINE_ID = "agentspace-test-bot1_1744872480618"
-DISPLAY_NAME = "GlobalTech-Workforce"
+DISPLAY_NAME ="GT-Workforce"
 AGENT_DESCRIPTION = "This agent will answer your questions on Global Tech Workforce"
 BQ_PROJECT_ID = "wmt-darv-Dev"
 BQ_DATASET_ID = "prod_global_tech_workforce"
-AUTHORIZATION_RESOURCE_NAME = "projects/362440398011/locations/global/authorizations/GlobalTech-Workforce"
+AUTHORIZATION_RESOURCE_NAME = "projects/362440398011/locations/global/authorizations/GT-WF"
 
 # --- NEW: Define your custom instructions for the agent ---
 CUSTOM_INSTRUCTIONS = (
